@@ -11,10 +11,6 @@ end)
 
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/scripterhub/UILibraries/main/Xenon/Lib.lua"))()
 
-local watermark = library:Watermark("fajkamacyce.lua - DEV")
--- watermark:Set("Watermark Set")
--- watermark:Hide() -- toggles watermark
-
 local main = library:Load{
     Name = "fajkamacyce.lua",
     SizeX = 500,
